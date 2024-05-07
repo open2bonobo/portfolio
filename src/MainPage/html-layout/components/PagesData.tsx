@@ -29,14 +29,14 @@ export type Skill = {
   export const Socials: Social[] = [
     {
       name: "LinkedIn",
-      src: "/linkedin.svg",
+      src: "./linkedin.svg",
       href: "https://www.linkedin.com/in/alex-ink-a11b8b133/",
     },
   ];
   
   export const Projects: Project[] = [
     {
-      imageSrc: "/bankrot.png",
+      imageSrc: "./bankrot.png",
       title: "Unified State Register of Bankruptcy Information",
       href: "https://bankrot.gov.by/",
       description:
@@ -60,7 +60,7 @@ export type Skill = {
       ]
     },
     {
-      imageSrc: "/msiminsk.png",
+      imageSrc: "./msiminsk.png",
       title: "MECASOFT International",
       href: "https://msiminsk.com/",
       description:
@@ -81,7 +81,7 @@ export type Skill = {
       ]
       },
     {
-      imageSrc: "/bimpoint.png",
+      imageSrc: "./bimpoint.png",
       title: "Bim.Point",
       href: "https://www.bim-point.cz/",
       description:
@@ -98,7 +98,7 @@ export type Skill = {
       ]
     },
     {
-      imageSrc: "/ibby.png",
+      imageSrc: "./ibby.png",
       title: "IB.BY",
       href: "https://ib.by/",
       description: "The company specializes in creating dynamic websites using Drupal, offering tailored solutions to meet diverse client needs. Leveraging Drupal's flexibility and scalability, they deliver user-friendly interfaces and robust functionalities, empowering businesses to establish a strong online presence.",
@@ -114,7 +114,7 @@ export type Skill = {
       ]
     },
     {
-      imageSrc: "/portfolio.png",
+      imageSrc: "./portfolio.png",
       title: "Portfolio & Studing",
       href: "#",
       description: "This website serves as a showcase of my professional journey, highlighting my skills, projects, and achievements. It offers a comprehensive overview of my expertise and experience, providing insights into my capabilities as a Full-Stack developer.",
@@ -135,7 +135,7 @@ export type Skill = {
   export const Backend_skills: Skill[] = [
     {
       skill_name: "C#",
-      Image: "/csharp.png",
+      Image: "./csharp.png",
       width: 80,
       height: 80,
       src: "https://docs.microsoft.com/en-us/dotnet/csharp",
@@ -143,7 +143,7 @@ export type Skill = {
     },
     {
       skill_name: ".NET Framework",
-      Image: "/dotnetframework.png",
+      Image: "./dotnetframework.png",
       width: 80,
       height: 80,
       src: "https://dotnet.microsoft.com/en-us/download/dotnet-framework",
@@ -151,7 +151,7 @@ export type Skill = {
     },
     {
       skill_name: ".NET Core",
-      Image: "/netcore.png",
+      Image: "./netcore.png",
       width: 120,
       height: 120,
       src: "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core",
@@ -159,7 +159,7 @@ export type Skill = {
     },
     {
       skill_name: "ASP.NET",
-      Image: "/aspnet.png",
+      Image: "./aspnet.png",
       width: 120,
       height: 120,
       src: "https://dotnet.microsoft.com/apps/aspnet",
@@ -167,7 +167,7 @@ export type Skill = {
     },
     {
       skill_name: "ASP.NET Core",
-      Image: "/aspnetcore.png",
+      Image: "./aspnetcore.png",
       width: 80,
       height: 80,
       src: "https://dotnet.microsoft.com/apps/aspnet",
@@ -175,7 +175,7 @@ export type Skill = {
     },
     {
       skill_name: "Entity Framework",
-      Image: "/entityframework.png",
+      Image: "./entityframework.png",
       width: 140,
       height: 140,
       src: "https://docs.microsoft.com/en-us/ef",
@@ -183,7 +183,7 @@ export type Skill = {
     },
     {
       skill_name: "Entity Framework Core",
-      Image: "/entityframeworkcore.png",
+      Image: "./entityframeworkcore.png",
       width: 60,
       height: 60,
       src: "https://docs.microsoft.com/en-us/ef/core",
@@ -191,7 +191,7 @@ export type Skill = {
     },
     {
       skill_name: "Quartz .NET",
-      Image: "/quartz.png",
+      Image: "./quartz.png",
       width: 60,
       height: 60,
       src: "https://www.quartz-scheduler.net",
@@ -199,7 +199,7 @@ export type Skill = {
     },
     {
       skill_name: "Unity 3D",
-      Image: "/unity.png",
+      Image: "./unity.png",
       width: 100,
       height: 100,
       src: "https://unity.com",
@@ -210,7 +210,7 @@ export type Skill = {
   export const Frontend_skill: Skill[] = [
     {
       skill_name: "Html 5",
-      Image: "/html-5.png",
+      Image: "./html-5.png",
       width: 80,
       height: 80,
       src: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
@@ -218,7 +218,7 @@ export type Skill = {
     },
     {
       skill_name: "Css 3",
-      Image: "/css-3.png",
+      Image: "./css-3.png",
       width: 70,
       height: 70,
       src: "https://developer.mozilla.org/en-US/docs/Web/CSS",
@@ -226,7 +226,7 @@ export type Skill = {
     },
     {
       skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      Image: "./tailwind.png",
       width: 80,
       height: 80,
       src: "https://tailwindcss.com",
@@ -234,7 +234,7 @@ export type Skill = {
     },
     {
       skill_name: "Java Script",
-      Image: "/js.png",
+      Image: "./js.png",
       width: 65,
       height: 65,
       src: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -242,7 +242,7 @@ export type Skill = {
     },
     {
       skill_name: "Type Script",
-      Image: "/ts.png",
+      Image: "./ts.png",
       width: 80,
       height: 80,
       src: "https://www.typescriptlang.org",
@@ -250,7 +250,7 @@ export type Skill = {
     },
     {
       skill_name: "Emotion JS",
-      Image: "/emotionjs.png",
+      Image: "./emotionjs.png",
       width: 80,
       height: 80,
       src: "https://emotion.sh/docs/introduction",
@@ -258,7 +258,7 @@ export type Skill = {
     },
     {
       skill_name: "React",
-      Image: "/react.png",
+      Image: "./react.png",
       width: 80,
       height: 80,
       src: "https://reactjs.org",
@@ -266,7 +266,7 @@ export type Skill = {
     },
     {
       skill_name: "Redux",
-      Image: "/redux.png",
+      Image: "./redux.png",
       width: 80,
       height: 80,
       src: "https://redux.js.org",
@@ -274,7 +274,7 @@ export type Skill = {
     },
     {
       skill_name: "Zustand",
-      Image: "/zustand-icon.webp",
+      Image: "./zustand-icon.webp",
       width: 80,
       height: 80,
       src: "https://zustand.surge.sh",
@@ -282,7 +282,7 @@ export type Skill = {
     },
     {
       skill_name: "React Query",
-      Image: "/reactquery.png",
+      Image: "./reactquery.png",
       width: 80,
       height: 80,
       src: "https://react-query.tanstack.com",
@@ -293,7 +293,7 @@ export type Skill = {
   export const Database_skills: Skill[] = [
     {
       skill_name: "MS SQL Server",
-      Image: "/mssql.png",
+      Image: "./mssql.png",
       width: 80,
       height: 80,
       src: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
@@ -301,7 +301,7 @@ export type Skill = {
     },
     {
       skill_name: "My SQL",
-      Image: "/mysql.png",
+      Image: "./mysql.png",
       width: 70,
       height: 70,
       src: "https://www.mysql.com",
@@ -309,7 +309,7 @@ export type Skill = {
     },
     {
       skill_name: "Postger SQL",
-      Image: "/postger.png",
+      Image: "./postger.png",
       width: 70,
       height: 70,
       src: "https://www.postgresql.org",
@@ -317,7 +317,7 @@ export type Skill = {
     },
     {
       skill_name: "Mongo db",
-      Image: "/mongodb.png",
+      Image: "./mongodb.png",
       width: 40,
       height: 40,
       src: "https://www.mongodb.com",
@@ -325,7 +325,7 @@ export type Skill = {
     },
     {
       skill_name: "SQLight",
-      Image: "/sqlight.png",
+      Image: "./sqlight.png",
       width: 150,
       height: 150,
       src: "https://www.sqlite.org/index.html",
@@ -336,7 +336,7 @@ export type Skill = {
   export const Devops_skills: Skill[] = [
     {
       skill_name: "Azure DevOps",
-      Image: "/azuredevops.png",
+      Image: "./azuredevops.png",
       width: 80,
       height: 80,
       src: "https://azure.microsoft.com/en-us/services/devops",
@@ -344,7 +344,7 @@ export type Skill = {
     },
     {
       skill_name: "GitLab CI/CD",
-      Image: "/gitlab.png",
+      Image: "./gitlab.png",
       width: 80,
       height: 80,
       src: "https://docs.gitlab.com",
@@ -352,7 +352,7 @@ export type Skill = {
     },
     {
       skill_name: "TeamCity",
-      Image: "/teamcity.png",
+      Image: "./teamcity.png",
       width: 50,
       height: 50,
       src: "https://www.jetbrains.com/teamcity",
@@ -360,7 +360,7 @@ export type Skill = {
     },
     {
       skill_name: "Octopus Deploy",
-      Image: "/octopus.png",
+      Image: "./octopus.png",
       width: 50,
       height: 50,
       src: "https://octopus.com",
@@ -368,7 +368,7 @@ export type Skill = {
     },
     {
       skill_name: "Docker ",
-      Image: "/docker.png",
+      Image: "./docker.png",
       width: 50,
       height: 50,
       src: "https://www.docker.com",
@@ -376,7 +376,7 @@ export type Skill = {
     },
     {
       skill_name: "Kubernetes ",
-      Image: "/kubernetes.png",
+      Image: "./kubernetes.png",
       width: 50,
       height: 50,
       src: "https://kubernetes.io",
@@ -387,7 +387,7 @@ export type Skill = {
   export const SourceControl_skills: Skill[] = [
     {
       skill_name: "Git",
-      Image: "/git.png",
+      Image: "./git.png",
       width: 50,
       height: 50,
       src: "https://git-scm.com",
@@ -395,7 +395,7 @@ export type Skill = {
     },
     {
       skill_name: "Bitbucket",
-      Image: "/bitbucket.png",
+      Image: "./bitbucket.png",
       width: 50,
       height: 50,
       src: "https://bitbucket.org",
@@ -403,7 +403,7 @@ export type Skill = {
     },
     {
       skill_name: "GitHub",
-      Image: "/github.png",
+      Image: "./github.png",
       width: 50,
       height: 50,
       src: "https://github.com",
@@ -414,7 +414,7 @@ export type Skill = {
   export const Soft_skills = [
     {
       skill_name: "Agile Metodology",
-      Image: "/agile.png",
+      Image: "./agile.png",
       width: 80,
       height: 80,
       href: "https://www.atlassian.com/agile",

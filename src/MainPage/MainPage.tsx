@@ -6,7 +6,6 @@ import {
 } from "@react-three/drei";
 import { Navbar, SpaceHtml } from "./html-layout";
 import { SpaceScene } from "./background";
-import LoginPage from "../Login/LoginPage";
 
 export const MainPage = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
