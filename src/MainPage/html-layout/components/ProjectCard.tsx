@@ -36,7 +36,7 @@ export const ProjectCard = (project: Project) => {
         </div>
       </DialogTrigger>
 
-      <DialogContent>
+      <DialogContent className="bg-white">
         <DialogHeader>
           <DialogTitle>
             <a
