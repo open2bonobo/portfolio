@@ -51,7 +51,7 @@ export const Skills = () => {
                         index={index}
                       />
                     </HoverCardTrigger>
-                    <HoverCardContent className="flex flex-col justify-center items-baseline w-50">
+                    <HoverCardContent className="flex flex-col justify-center items-baseline w-50 bg-white">
                       <a
                         className="flex justify-center m-auto"
                         target="_blank"
